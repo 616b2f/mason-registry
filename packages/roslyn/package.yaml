@@ -1,0 +1,18 @@
+name: roslyn
+description: |
+  The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
+homepage: https://github.com/dotnet/roslyn
+licenses:
+  - MIT
+languages:
+  - C#
+categories:
+  - LSP
+
+source:
+  id: pkg:nuget/Microsoft.CodeAnalysis.LanguageServer.neutral@5.0.0-1.25220.1?repository_url=https://pkgs.dev.azure.com/azure-public/vside/_packaging/vs-impl/nuget/v3/index.json
+  download:
+    file: Microsoft.CodeAnalysis.LanguageServer.neutral-{{version}}.nupkg
+
+bin:
+  roslyn: nuget:content/LanguageServer/neutral/Microsoft.CodeAnalysis.LanguageServer.dll
