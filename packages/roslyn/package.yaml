@@ -15,4 +15,4 @@ source:
     file: Microsoft.CodeAnalysis.LanguageServer.neutral-{{version}}.nupkg
 
 bin:
-  Microsoft.CodeAnalysis.LanguageServer: nuget:content/LanguageServer/neutral/Microsoft.CodeAnalysis.LanguageServer.dll
+  Microsoft.CodeAnalysis.LanguageServer: dotnet:content/LanguageServer/neutral/Microsoft.CodeAnalysis.LanguageServer.dll
