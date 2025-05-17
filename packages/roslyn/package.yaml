@@ -10,7 +10,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:nuget/Microsoft.CodeAnalysis.LanguageServer.neutral@5.0.0-1.25220.1?repository_url=https://pkgs.dev.azure.com/azure-public/vside/_packaging/vs-impl/nuget/v3/index.json
+  id: pkg:nuget/Microsoft.CodeAnalysis.LanguageServer.neutral@5.0.0-1.25266.4?repository_url=https://pkgs.dev.azure.com/azure-public/vside/_packaging/vs-impl/nuget/v3/index.json
   download:
     file: Microsoft.CodeAnalysis.LanguageServer.neutral-{{version}}.nupkg
 
