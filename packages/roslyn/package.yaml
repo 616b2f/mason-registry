@@ -10,9 +10,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:nuget/Microsoft.CodeAnalysis.LanguageServer.neutral@5.0.0-1.25266.4?repository_url=https://pkgs.dev.azure.com/azure-public/vside/_packaging/vs-impl/nuget/v3/index.json
-  download:
-    file: Microsoft.CodeAnalysis.LanguageServer.neutral-{{version}}.nupkg
+  id: pkg:nuget/roslyn-language-server@5.5.0-2.26103.6
 
 bin:
-  Microsoft.CodeAnalysis.LanguageServer: dotnet:content/LanguageServer/neutral/Microsoft.CodeAnalysis.LanguageServer.dll
+  roslyn-language-server: nuget:roslyn-language-server
